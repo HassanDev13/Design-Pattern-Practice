@@ -1,9 +1,9 @@
-package Factory;
+package Factory.Example1;
 
-import Factory.Models.*;
+import Factory.Example1.Models.*;
 
-public class CreateVehicle {
-    public Vehicle create(String type, double longueur, double vitMax) {
+public  class CreateVehicle {
+    public static Vehicle create(String type, double longueur, double vitMax) {
         if (type.equals("Voiture")) {
             return new Voiture(longueur, vitMax);
         } else if (type.equals("Bus")) {

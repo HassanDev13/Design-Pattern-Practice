@@ -1,6 +1,6 @@
-package Factory.Models;
+package Factory.Example1.Models;
 
-public class  Voiture extends Vehicle {
+public class Voiture extends Vehicle {
 
     public Voiture(double longueur, double vitMax) {
         super(longueur, vitMax);

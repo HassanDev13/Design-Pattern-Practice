@@ -1,4 +1,4 @@
-package Factory.Models;
+package Factory.Example1.Models;
 
 public class  Bus extends Vehicle {
 
